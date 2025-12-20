@@ -2,9 +2,8 @@ public class Employee extends Human {
     private String job;
     private float salary;
     public static String company = "MyCompany";
-    public Employee(int age, String name, boolean alive,
-                    String job, float salary) {
-        super(age, name, alive);
+    public Employee(int age, String name, boolean isworking, String job, float salary) {
+        super(age, name, isworking);
         this.job = job;
         this.salary = salary;
     }

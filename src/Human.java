@@ -1,11 +1,11 @@
 public class Human {
     private int age;
     private String name;
-    private boolean alive;
-    public Human(int age, String name, boolean alive) {
+    private boolean isworking;
+    public Human(int age, String name, boolean isworking) {
         this.age = age;
         this.name = name;
-        this.alive = alive;
+        this.isworking = isworking;
     }
     public int getAge() {
         return age;
@@ -19,17 +19,17 @@ public class Human {
     public void setName(String name) {
         this.name = name;
     }
-    public boolean isAlive() {
-        return alive;
+    public boolean getIsworking() {
+        return isworking;
     }
-    public void setAlive(boolean alive) {
-        this.alive = alive;
+    public void setIsworking(boolean isworking) {
+        this.isworking = isworking;
     }
     public void info() {
-        System.out.println("Name: " + name + ", Age: " + age);
+        System.out.println("Name:" + name + ", Age: " + age);
     }
 
     public void status() {
-        System.out.println("Alive: " + alive);
+        System.out.println("Is working: " + isworking);
     }
 }

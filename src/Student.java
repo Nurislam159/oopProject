@@ -1,9 +1,8 @@
 public class Student extends Human {
     private String university;
     private float gpa;
-    public Student(int age, String name, boolean alive,
-                   String university, float gpa) {
-        super(age, name, alive);
+    public Student(int age, String name, boolean isworking, String university, float gpa) {
+        super(age, name, isworking);
         this.university = university;
         this.gpa = gpa;
     }
