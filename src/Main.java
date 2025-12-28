@@ -18,6 +18,6 @@ public class Main {
         emp.info();
         emp.status();
 
-        scanner.close();
+        
     }
 }
